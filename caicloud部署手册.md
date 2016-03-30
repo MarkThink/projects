@@ -67,7 +67,7 @@ caicloud create -f mongo-rc.yaml && caicloud create -f mongo-svc.yaml
 caicloud create -f app-provisioner-rc.yaml && caicloud create -f app-provisioner-svc.yaml
 ```
 - portal-ui
-	- 修改portal-ui/portal-ui-rc.yaml
+  - 修改portal-ui/portal-ui-rc.yaml
 ```
 image: index.caicloud.io/caicloud/portal-ui:v0.10.2
 image: index.caicloud.io/caicloud/portal-ui:v0.10.9
@@ -76,7 +76,7 @@ image: index.caicloud.io/caicloud/portal-ui:v0.10.9
 value: jinjiang
 value: bl
 ```
-	- 创建
+  - 创建
 ```
 caicloud create -f portal-ui-rc.yaml
 caicloud portal-ui-svc.yaml
