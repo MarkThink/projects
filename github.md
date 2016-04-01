@@ -53,3 +53,18 @@ $git clean -d -fx ""
 $git rebase upstream/master
 Current branch guohui-patch-1 is up to date.
 ```
+
+## 8、切换分支
+```sh
+git checkout branch_name
+```
+
+## 9、删除本地分支
+```sh
+git branch -d branch_name
+```
+
+## 10、删除远程分支
+```sh
+git push origin :branch_name
+```
