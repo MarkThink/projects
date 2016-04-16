@@ -68,3 +68,11 @@ git branch -d branch_name
 ```sh
 git push origin :branch_name
 ```
+
+## 11、git配置
+```sh
+#git配置
+git config --global user.name greg89757
+git config --global user.email 729779963@qq.com
+git config --global credential.helper store
+```
